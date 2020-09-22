@@ -29,10 +29,27 @@ bool CButton::putButton(int start_x, int start_y, char str_but[])
 	y = m_msg.y;
 	
 	//获取焦点
-	if (x > start_x - 25 && (sizeof)x< start_x + 19 * strlen(str_but) + 25 && y>start_y && y < start_y + 30)
+	if (x > start_x - 25 && (size_t)x< start_x + 19 * strlen(str_but) + 25 && y>start_y && y < start_y + 30)
 	{
 		setfillcolor(EGERGB(150, 150, 150));
+		bar(x - 25, y, x + 19 * strlen(str_but) + 25, y + 30);
+
+		if (m_msg.is_up())
+		{
+			m_msg.is_move();
+			return 1;
+		}	//?????
 	}
+	
+	//设置字体相关参数
+	LOGFONTA f;		//LOGFONTA为MBCS版本 LOGFONTW为UTF16版本 to be confirmed
+	getfont(&f);
+	f.lfHeight = 25;
+	strcpy(f.lfFaceName, "微软雅黑");
+	f.lfQuality = ANTIALIASED_QUALITY;
+	setfont(&f);
+	setcolor(WHITE);
+	outtextxy(x, y + 30, str_but);
 
-
+	return 0;
 }
