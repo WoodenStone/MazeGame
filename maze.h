@@ -18,8 +18,24 @@ enum BLOCK { WALL = 1,
 
 //Const Number
 #define INF 2147483647
+<<<<<<< Updated upstream
 
 
 
 
 
+=======
+#define NUMOFSTAGE 4
+
+enum STAGE {
+	FOREST=1,
+	DESERT,
+	CASTLE,
+	PRINCESS
+};
+
+enum IFFINISHED {
+	NO=0,
+	YES
+};
+>>>>>>> Stashed changes

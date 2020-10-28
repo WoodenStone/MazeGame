@@ -21,6 +21,33 @@
     <ClCompile Include="Button.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="UI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Forest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Desert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Princess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Adventure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="newGameUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="maze.h">
@@ -29,5 +56,63 @@
     <ClInclude Include="Game.h">
       <Filter>头文件</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
+=======
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MazeGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\forest_road.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\forest_wall.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\forest_player.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\forest_end.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\desert_road.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\desert_player.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\desert_wall.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\desert_end.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\castle_end.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\castle_player.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\castle_road.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\castle_wall.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\star_end.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\star_player.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\star_bg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

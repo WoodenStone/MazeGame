@@ -86,8 +86,16 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
+<<<<<<< Updated upstream
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+=======
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions) _CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <StringPooling>true</StringPooling>
+>>>>>>> Stashed changes
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,10 +149,40 @@
   <ItemGroup>
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="maze.cpp" />
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="newGameUI.cpp" />
+    <ClCompile Include="Princess.cpp" />
+    <ClCompile Include="UI.cpp" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="maze.h" />
+<<<<<<< Updated upstream
+=======
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MazeGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\castle_end.jpg" />
+    <Image Include="images\castle_player.jpg" />
+    <Image Include="images\castle_road.jpg" />
+    <Image Include="images\castle_wall.jpg" />
+    <Image Include="images\desert_end.jpg" />
+    <Image Include="images\desert_player.jpg" />
+    <Image Include="images\desert_road.jpg" />
+    <Image Include="images\desert_wall.jpg" />
+    <Image Include="images\forest_end.jpg" />
+    <Image Include="images\forest_player.jpg" />
+    <Image Include="images\forest_road.jpg" />
+    <Image Include="images\forest_wall.jpg" />
+    <Image Include="images\star_bg.jpg" />
+    <Image Include="images\star_end.png" />
+    <Image Include="images\star_player.png" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
