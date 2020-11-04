@@ -66,23 +66,7 @@ DESERT_WALL             JPG                     "images\\desert_wall.jpg"
 
 DESERT_END              JPG                     "images\\desert_end.jpg"
 
-CASTLE_END              JPG                     "images\\castle_end.jpg"
-
-CASTLE_PLAYER           JPG                     "images\\castle_player.jpg"
-
-CASTLE_ROAD             JPG                     "images\\castle_road.jpg"
-
-CASTLE_WALL             JPG                     "images\\castle_wall.jpg"
-
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// PNG
-//
-
-STAR_END                PNG                     "images\\star_end.png"
-
-STAR_PLAYER             PNG                     "images\\star_player.png"
+STAR_BG                 JPG                     "images\\star_bg.jpg"
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -90,7 +74,13 @@ STAR_PLAYER             PNG                     "images\\star_player.png"
 // Bitmap
 //
 
-STAR_BG                 JPG                     "images\\star_bg.jpg"
+CASTLE_END              JPG                     "images\\castle_end.jpg"
+
+CASTLE_PLAYER           JPG                     "images\\castle_player.jpg"
+
+CASTLE_ROAD             JPG                     "images\\castle_road.jpg"
+
+CASTLE_WALL             JPG                     "images\\castle_wall.jpg"
 
 #endif    // 中文(简体，中国) resources
 /////////////////////////////////////////////////////////////////////////////

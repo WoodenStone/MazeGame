@@ -21,8 +21,6 @@
     <ClCompile Include="Button.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-<<<<<<< Updated upstream
-=======
     <ClCompile Include="UI.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -47,7 +45,6 @@
     <ClCompile Include="newGameUI.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
->>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="maze.h">
@@ -56,8 +53,6 @@
     <ClInclude Include="Game.h">
       <Filter>头文件</Filter>
     </ClInclude>
-<<<<<<< Updated upstream
-=======
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -104,15 +99,8 @@
     <Image Include="images\castle_wall.jpg">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="images\star_end.png">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="images\star_player.png">
-      <Filter>资源文件</Filter>
-    </Image>
     <Image Include="images\star_bg.jpg">
       <Filter>资源文件</Filter>
     </Image>
->>>>>>> Stashed changes
   </ItemGroup>
 </Project>
