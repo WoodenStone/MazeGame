@@ -31,7 +31,7 @@ void CUI::mainMenu()
 	PIMAGE pimg_bg = newimage();
 	getimage(pimg_bg, "images\\bg.jpeg", 0, 0);
 
-	for(;is_run();delay_fps(60))
+	for(;is_run();delay_fps(60))//检测窗口运行状态
 	{
 		
 			if (kbhit())	//键盘消息获取

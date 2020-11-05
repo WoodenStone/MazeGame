@@ -292,7 +292,9 @@ void CForest::mainGame()
 					{
 						if (error)
 						{
-							outtextxy(100, 60, " ‰»Î¥ÌŒÛ");
+							setcolor(WHITE);
+							xyprintf(100, 60, " ‰»Î¥ÌŒÛ");
+							delay_ms(1000);
 						}
 						else
 						{
